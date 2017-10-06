@@ -1,0 +1,21 @@
+{
+  "name": "pirl/pirl-php",
+  "description": "A library integrating Pirl with typed PHP.",
+  "require": {
+    "php": ">=5.6",
+    "graze/guzzle-jsonrpc": "~3.0",
+    "pear/math_biginteger": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pirl\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathew 'Wallermadev' Waller",
+      "email": "wallermadev@pirl.io"
+    }
+  ]
+}
